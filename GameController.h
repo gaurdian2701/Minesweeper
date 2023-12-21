@@ -62,8 +62,6 @@ public:
 
     void StartGameLoop(Player *p)
     {
-        int fail = 0;
-
         while (true)
         {
             currentInput = p->TakeTurn();
